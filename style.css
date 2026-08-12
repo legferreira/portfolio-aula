@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+body{
+    background-color: #fdf6ee;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 232, 210);
+    height: 50px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+header a{
+    color: brown;
+    text-decoration: none;
+}
+.dados{
+    text-align: left;
+    font-size: 22px;
+    padding-top: 30px;
+    color: brown;
+}
+h1,
+h3{
+    text-align: center;
+    color: brown;
+}
+h4{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+ }
+ 
+
+section{
+    padding: 60px 40px;
+}
+
+.controle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.imagemPerfil{
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+
+.controle2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.imagem {
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+    margin-left: 500px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(250, 232, 210);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer img{
+    width: 60px;
+    align-content: center;
+}
